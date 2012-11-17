@@ -2,12 +2,12 @@
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
 
   <Identity
-    Name="219e6897-4337-4f50-8f49-7819dc2a0b4e"
+    Name="15ced7a6-c1db-485f-9ce0-93b2c56056aa"
     Version="1.0.0.0"
     Publisher="CN=Caio Proiete" />
 
   <Properties>
-    <DisplayName>CodebitBadges</DisplayName>
+    <DisplayName>CodebitsBadges</DisplayName>
     <PublisherDisplayName>Caio Proiete</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
@@ -27,10 +27,10 @@
       StartPage="default.html">
 
       <VisualElements
-        DisplayName="CodebitBadges"
+        DisplayName="CodebitsBadges"
         Logo="images\logo.png"
         SmallLogo="images\smalllogo.png"
-        Description="CodebitBadges"
+        Description="CodebitsBadges"
         ForegroundText="light"
         BackgroundColor="#464646">
 
