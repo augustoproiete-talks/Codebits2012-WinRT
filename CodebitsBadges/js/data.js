@@ -8,7 +8,8 @@
     //badges.push({ title: "Eu vi um SAPO", usercount: 22 });
     //badges.push({ title: "Game Over", usercount: 78 });
 
-    var apiUrl = "https://services.sapo.pt/Codebits/listbadges";
+    //var apiUrl = "https://services.sapo.pt/Codebits/listbadges";
+    var apiUrl = "/localdata/listbadges.json";
 
     WinJS.xhr({ url: apiUrl }).then(function (xhr) {
 
