@@ -1,0 +1,73 @@
+﻿.homepage section[role=main] {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+}
+
+#badgesListView {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+    #badgesListView .win-horizontal.win-viewport .win-surface {
+        margin-bottom: 10px;
+        margin-left: 45px;
+        margin-right: 115px;
+        margin-top: 128px;
+    }
+
+    #badgesListView .win-container {
+        background-color: #706b6e;
+        border-color: #413b40;
+    }
+
+        #badgesListView .win-container:hover {
+            background-color: #61bae0;
+            border-color: #61bae0;
+        }
+
+.badgeItem {
+    width: 450px;
+    height: 138px;
+    padding: 5px;
+    overflow: hidden;
+    display: -ms-grid;
+}
+
+    .badgeItem img {
+        width: 128px;
+        height: 128px;
+        margin: 5px;
+        -ms-grid-column: 1;
+    }
+
+    .badgeItem div {
+        margin: 5px;
+        -ms-grid-column: 2;
+    }
+
+    .badgeItem h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .badgeItem h4 {
+        font-size: 15px;
+    }
+
+    .badgeItem h6 {
+        font-size: 13px;
+    }
+
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: portrait) {
+    .homepage section[role=main] {
+        margin-left: 100px;
+    }
+}

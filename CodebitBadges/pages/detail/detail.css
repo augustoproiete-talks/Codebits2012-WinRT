@@ -1,0 +1,12 @@
+﻿.detail section[role=main] {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    margin-bottom: 35px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 128px;
+}
+
+.detail p {
+    margin-left: 120px;
+}
