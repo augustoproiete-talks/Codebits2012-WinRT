@@ -1,0 +1,8 @@
+title: AppCentral-WinRT
+description: Sample application built during my webcasts at AppCentral on developing Windows Store apps with HTML and JavaScript
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
